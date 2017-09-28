@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <mem.h>
+
 struct student {
     char name[25];
     char phone[25];
     char birth[25];
-    int choice ;
+    int choice;
 };
 struct student st1;
+
 int main() {
 //    int choice;
     printf("-----Menu-----:\n");
@@ -18,7 +20,7 @@ int main() {
 //    Khi hết câu lệnh tự động chọn lại câu lệnh ( ngoại trừ lệnh thoát)
     while (true) {
         printf("What is your choice:\n");
-        scanf("%d",&st1.choice);
+        scanf("%d", &st1.choice);
         fflush(stdin);
 //  Vòng điều kiện để xét giá trị biến choice
         if (st1.choice != 1 && st1.choice != 2 && st1.choice != 3) {
