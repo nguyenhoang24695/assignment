@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <mem.h>
-#include <conio.h>
 struct student {
     char name[25];
     char phone[25];
