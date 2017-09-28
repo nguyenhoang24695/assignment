@@ -6,8 +6,8 @@ struct student {
     char phone[25];
     char birth[25];
     int choice ;
-} st1;
-
+};
+struct student st1;
 int main() {
 //    int choice;
     printf("-----Menu-----:\n");
@@ -19,7 +19,7 @@ int main() {
     while (true) {
         printf("What is your choice:\n");
         scanf("%d",&st1.choice);
-        getchar();
+        fflush(stdin);
 //  Vòng điều kiện để xét giá trị biến choice
         if (st1.choice != 1 && st1.choice != 2 && st1.choice != 3) {
             printf("Please choose right number!!!\n");
