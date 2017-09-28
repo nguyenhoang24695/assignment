@@ -1,0 +1,34 @@
+Student name: Nguyen Hoang
+Phone: 0979020863
+BirthDay: 24/07/1995
+--------------------------------------
+Student name: Nguyen hoang
+Phone: 809283 123810923
+
+BirthDay: 1238 919192
+
+--------------------------------------
+Student name: beark
+Phone: aaaaa
+
+BirthDay: xczzczxc
+
+--------------------------------------
+Student name: hoang
+Phone: 0979020863
+
+BirthDay: 0979020863
+
+--------------------------------------
+Student name: jkasasd
+Phone: 123123
+
+BirthDay: 123123
+
+--------------------------------------
+Student name: hoang
+Phone: hjkhd
+
+BirthDay: 
+
+--------------------------------------
