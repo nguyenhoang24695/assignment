@@ -72,12 +72,10 @@ void writetofile() {
     fputs("Student name: ", sv);
     fputs(st1.name, sv);
     fputs("Phone: ", sv);
-//  Lệnh fputs có \n và ----- mục đích làm đẹp và dễ nhìn hơn khi read file
     fputs(st1.phone, sv);
-    fputs("\n", sv);
     fputs("BirthDay: ", sv);
     fputs(st1.birth, sv);
-    fputs("\n", sv);
+    //  Lệnh fputs ----- mục đích làm đẹp và dễ nhìn hơn khi read file
     fputs("--------------------------------------\n", sv);
     fclose(sv);
 }
